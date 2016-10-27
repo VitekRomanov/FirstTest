@@ -18,6 +18,7 @@ public class YandexMail {
 	private  WebElement passwd;
 	
 	YandexMail(WebDriver driver){
+		PageFactory.initElements(driver, this);
 		this.driver =driver;
 	}
 	
