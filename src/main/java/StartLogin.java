@@ -13,6 +13,7 @@ public class StartLogin {
         
 
         YandexMail yandexmail = new YandexMail(driver);
-        yandexmail.loginTo("testuser2710", "2710user");
+        yandexmail.loginTo("testuser2710", "2710user");  
+		// изменение для ветки new_f
     }
 }     
