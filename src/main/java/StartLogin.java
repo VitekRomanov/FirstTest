@@ -14,5 +14,6 @@ public class StartLogin {
 
         YandexMail yandexmail = new YandexMail(driver);
         yandexmail.loginTo("testuser2710", "2710user");
+		// изменение в мастер ветке
     }
 }     
